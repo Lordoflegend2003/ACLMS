@@ -4,6 +4,7 @@ import MyCourse from '../Screen/MyCourse';
 import LeaderBoard from '../Screen/LeaderBoard';
 import ProfileScreen from '../Screen/ProfileScreen';
 import { Entypo, FontAwesome5, MaterialIcons, FontAwesome } from '@expo/vector-icons';
+import HomeScreenNavigation from './HomeScreenNavigation';
 
 const Tab = createBottomTabNavigator();
 
@@ -24,7 +25,7 @@ export default function TabNavigation() {
     >
       <Tab.Screen
         name="home"
-        component={HomeScreen}
+        component={HomeScreenNavigation}
         options={{
           tabBarIcon: ({ color, size }) => (
             <Entypo name="home" size={size} color={color} />

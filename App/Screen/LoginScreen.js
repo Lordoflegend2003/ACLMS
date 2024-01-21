@@ -45,7 +45,7 @@ export default function LoginScreen() {
         width: 400,
         marginTop: -60,
         padding: 20,
-        backgroundColor: Colors.LIGHT_PRIMARY
+        backgroundColor: Colors.BLACK
       }}>
         <Text style={{
           textAlign: 'center',
@@ -85,7 +85,7 @@ export default function LoginScreen() {
             fontFamily: 'Outfit-mid',
             marginLeft: 20,
           }}
-          >Login with Googl</Text>
+          >Login with Google</Text>
         </TouchableOpacity>
       </View>
     </View>
