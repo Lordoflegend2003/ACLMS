@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "myapp",
     "name": "ACLMS",
     "slug": "ACLMS",
     "version": "1.0.0",
